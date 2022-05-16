@@ -2,11 +2,11 @@
 
 This example demonstrates how to use Playwright with Chromium and Firefox on a Heroku environment.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mxschmitt/heroku-playwright-example)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nikitakarpenkov/heroku-playwright-example)
 
 ## General
 
-The setup is based on using the [Playwright Heroku Buildpack](https://github.com/mxschmitt/heroku-playwright-buildpack.git) which installs the necessary dependencies and adjusts the needed Playwright specific settings. It's required to run this before using the [NodeJS Buildpack](https://github.com/heroku/heroku-buildpack-nodejs), because otherwise the NPM dependencies won't be installed correctly.
+The setup is based on using the [Playwright Heroku Buildpack](https://github.com/nikitakarpenkov/heroku-playwright-buildpack.git) which installs the necessary dependencies and adjusts the needed Playwright specific settings. It's required to run this before using the [NodeJS Buildpack](https://github.com/heroku/heroku-buildpack-nodejs), because otherwise the NPM dependencies won't be installed correctly.
 
 ## Components
 
